@@ -627,6 +627,12 @@ demo1234
 
 # 📸 Application Screenshots
 
+## 📊 Login 
+
+<img src="screenshots/login.jpeg" width="900"/>
+
+---
+
 ## 📊 Dashboard
 
 <img src="screenshots/dashboard.jpeg" width="900"/>
@@ -641,7 +647,7 @@ demo1234
 
 ## 👨‍✈️ Drivers & Safety Profiles
 
-<img src="screenshots/drivers.jpeg" width="900"/>
+<img src="screenshots/driver.jpeg" width="900"/>
 
 ---
 
@@ -653,15 +659,10 @@ demo1234
 
 ## 🔧 Maintenance Management
 
-<img src="screenshots/maintenance.jpeg" width="900"/>
+<img src="screenshots/maintainence.jpeg" width="900"/>
 
 ---
 
-## ⛽ Fuel & Expense Management
-
-<img src="screenshots/fuel-expenses.jpeg" width="900"/>
-
----
 
 ## 📈 Analytics Dashboard
 
