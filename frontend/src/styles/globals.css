@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background: #0b0e14;
+  color: #e7ecf3;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  background: #0b0e14;
+  font-family: Inter, Manrope, ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0e14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a313c;
+  border: 2px solid #0b0e14;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  background: #10151d;
+}
+
+.leaflet-control-attribution {
+  background: rgba(11, 14, 20, 0.78) !important;
+  color: #8a94a6 !important;
+}
+
+.route-marker {
+  border: 1px solid #f59e0b;
+  background: #151b23;
+  color: #f7b84b;
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.13);
+}
