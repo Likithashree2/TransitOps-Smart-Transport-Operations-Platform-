@@ -528,12 +528,12 @@ Project:
 
 Built by:
 
-| Name | Role |
-|------|------|
-| Member Name 1 | Full Stack Developer |
-| Member Name 2 | Backend Developer |
-| Member Name 3 | Frontend Developer |
-| Member Name 4 | AI/ML Developer |
+| Name | 
+|------|
+| Anushka | 
+| Divyashree | 
+| Likitha Shree | 
+| Pallavi K P | 
 
 ---
 
