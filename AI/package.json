@@ -1,0 +1,27 @@
+{
+  "name": "transitops-ai-layer",
+  "version": "1.0.0",
+  "description": "Standalone AI/ML layer for TransitOps: LLM dispatch copilot, fuel anomaly detection (Isolation Forest), maintenance risk scoring (Random Forest).",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "seed:simulate": "node scripts/seed-simulation.js",
+    "job:anomaly": "node -e \"require('./src/modules/ai/anomaly/anomaly.job').runOnce()\"",
+    "job:risk": "node -e \"require('./src/modules/ai/risk/risk.job').runOnce()\""
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "express": "^4.19.2",
+    "openai": "^4.56.0",
+    "ml-random-forest": "^2.1.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "prisma": "^5.18.0",
+    "nodemon": "^3.1.4"
+  }
+}
