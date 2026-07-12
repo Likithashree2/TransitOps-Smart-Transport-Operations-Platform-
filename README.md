@@ -537,4 +537,3 @@ Built by:
 
 ---
 
-Developed for **Odoo Hackathon 2026**.
